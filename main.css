@@ -1,0 +1,102 @@
+body{
+    font-family: font-family 'Lato', sans-serif;;
+}
+
+#am-logo{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sign-in-box{
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 4px;
+    width: 28%;
+    height: 35%;
+    padding: 20px;
+    min-width: 300px;
+}
+
+#input-box{
+    font-weight: bold;
+    font-size: small;
+}
+
+#input-text{
+    background-color: rgb(224, 233, 250);
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 98%;
+}
+
+#cont-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#continue{
+    background-color: rgb(220, 182, 86);
+    box-shadow: inset 0px 12px 12px rgb(223, 205, 159);
+    color: black;
+    border: 1px solid black;
+}
+
+#notices{
+    font-size: 12px;
+}
+
+#need-help a{
+    font-size: small;
+    text-decoration: none;
+}
+
+#create{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#create2{
+    background-color: rgb(224, 227, 231);
+    box-shadow: inset 0px 12px 12px whitesmoke;
+    color: black;
+    border: 1px solid black;
+
+}
+
+#create1{
+    font-weight: 200;
+    font-size: small;
+}
+
+a:hover{
+    color: red;
+}
+
+
+footer{
+    display: flex;
+    font-size: small;
+    
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+}
+footer ul{
+    width: 18vw;
+    list-style-type: none;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    
+}
+
+footer li{
+    display: inline;
+
+}
